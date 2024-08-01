@@ -1,0 +1,229 @@
+---
+title: "II593 - Estadística General"
+author:
+  - name: "Ing. Sebastián Blandón Londoño"
+    orcid: 0000-0002-0513-3860
+    url: https://www.linkedin.com/in/sebastian-blandon/
+    email: "s.blandon@utp.edu.co"
+    affiliation: "Universidad Tecnológica de Pereira"
+format:
+  revealjs:
+    auto-stretch: true
+    scrollable: true
+    controls: auto
+    margin: 0.16
+    self-contained: true
+    chalkboard: false
+    theme: [simple, styles.scss]
+    wrap: auto
+    progress: true
+    toc: false
+    toc-depth: 5
+    logo: logo_utp.png
+    footer: "Estadística General | Facultad de Ciencias Empresariales"
+    menu:
+      numbers: false
+    slide-level: 4
+    show-slide-number: speaker
+    touch: true
+    incremental: true
+    preview-links: auto
+    link-external-newwindow: true
+    hide-inactive-cursor: true
+    hide-cursor-time: 1500
+    slide-tone: false
+    pointer:
+      color: 'red'
+      key: 'q'
+      pointerSize: 32
+      alwaysVisible: false
+    confetti:
+      particleCount: 150
+      angle: 90
+      spread: 360
+      startVelocity: 25
+      gravity: 0.65
+      drift: 0
+      ticks: 400
+      colors: ["#0366fc", "#f54281", "#1fd14f"]
+      scalar: 0.7
+    spotlight:
+      toggleSpotlightOnMouseDown: false
+      spotlightOnKeyPressAndHold: 18
+      useAsPointer: false
+filters:
+  - code-fullscreen
+  - lightbox
+revealjs-plugins:
+  - pointer
+  - confetti
+  - embedpdf
+title-slide-attributes: 
+  data-footer: "Facultad de Ciencias Empresariales"
+include-after-body: add-custom-footer.html
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+```{r include=FALSE}
+# Carga de paquetes
+library(tidyverse)
+library(knitr)
+library(kableExtra)
+```
+
+# Introducción
+
+### ¿Para qué sirve este curso?
+
+-   Diseñar, programar y controlar la producción de bienes.
+-   Determinar y analizar variables de operación que aporten a la
+    formulación de planes de mejoramiento para el uso de los recursos
+    empresariales.
+-   Proponer sistemas de información y reporte que faciliten y mejoren
+    el análisis de la operación.
+
+## Contenido
+
+![](0_Figures/0_AsignaturasProduccion.png)
+
+## Contenido
+
+![](0_Figures/0_ContenidoProduccion1.png)
+
+## Contenido
+{{< pdf /0_Resources/II593_Estadistica_General.pdf width=100% height=620 >}}
+
+## Evaluación
+
+::: columns
+::: {.column width="25%"}
+**Módulo I (30%)**
+
+\- Parcial (25%)
+
+\- Actividades en clase (5%)
+:::
+
+::: {.column width="25%"}
+**Módulo II (20%)**
+
+\- Parcial (15%)
+
+\- Actividades en clase (5%)
+:::
+
+::: {.column width="25%"}
+**Módulo III (20%)**
+
+\- Parcial (15%)
+
+\- Actividades en clase (5%)
+:::
+
+::: {.column .small-text width="25%"}
+**Actividades Complementarias e integradoras (30%)**
+
+\- Lectura (5%)
+
+\- Dashboard OEE (15%)
+
+\- Taller de optimización en AMPL (10%)
+:::
+:::
+
+## Recursos guía
+
+::: nonincremental
+- Johnson (2018). Probability and Statistics for Engineers
+- Koralov y Sinai (2012). Theory of Probability and Random Processes (2nd ed.)
+- Walpole, Myers y Myers (). Probabilidad y estadística para ingenierías y ciencias (8va ed.)
+- Tattar, Ramaiah y Manjunath (2016). A course in statistics with R
+- Chang (2024). R Graphics Cookbook
+:::
+
+## Software
+
+::: columns
+::: {.column width="33%"}
+![](0_Figures/0_Logo_Excel.jpeg)
+:::
+
+::: {.column width="33%"}
+![](0_Figures/0_Logo_R.png)
+:::
+
+::: {.column width="34%"}
+![](0_Figures/0_Logo_Qlik.png) **Qlik Sense**
+:::
+:::
+
+## Presentación
+
+::: notes
+Mencionar los acuerdos de clase: - No responder a no ser que le sea
+consultado directa o abiertamente.
+:::
+
+
+
+### Software estadístico {.stretch}
+
+::: columns
+::: {.column width="33%"}
+![](0_Figures/0_Logo_Python.png){height="200"}
+![](0_Figures/0_Logo_R.png){height="150"}
+:::
+
+::: {.column width="33%"}
+![](0_Figures/0_Logo_Matlab.png){height="200"}
+
+
+:::
+
+::: {.column width="34%"}
+
+
+:::
+:::
+
+### Software estadístico
+
+::: columns
+::: {.column width=50%}
+![](0_Figures/0_OptimizationSoftware1.png)
+:::
+
+::: {.column width=50%}
+![](0_Figures/0_OptimizationSoftware2.png)
+:::
+:::
+
+
+# Módulo I: Introducción
+::: nonincremental
+- Estadística descriptiva
+- Probabilidad
+:::
+
+# Módulo II: Variables aleatorias
+::: nonincremental
+- Funciones de distribución y funciones de probabilidad
+- Distribuciones discretas
+- Distribuciones continuas
+- Esperanza matemática
+:::
+
+# Módulo III: Inferencia
+::: nonincremental
+- Estimación de una y dos muestras
+- Pruebas de hipótesis de una y dos muestras
+:::
+
+# Módulo IV: Regresión y muestreo
+::: nonincremental
+- Modelos de regresión
+- Muestreo
+:::
+
