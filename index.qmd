@@ -73,20 +73,94 @@ library(knitr)
 library(kableExtra)
 ```
 
+# Estadística {.small-text}
+![](0_Figures/1_Estadistica.jpg)
+
+# Analítica {.small-text}
+![](0_Figures/1_AnaliticaTipos.png)
+
+# Algunas preguntas en ingeniería mecánica {.small-text}
+- **Análisis de vibraciones:** ¿Qué frecuencias de vibración son más críticas para la integridad de una estructura mecánica?
+- **Diseño de experimentos:** ¿Cuál es la combinación óptima de materiales para maximizar la resistencia de un componente?
+- **Gestión de activos:** ¿Cómo podemos predecir el desgaste de una pieza mecánica en función del tiempo y uso?
+- **Simulación y modelado:** ¿Cómo podemos modelar el comportamiento térmico de un motor bajo diferentes condiciones operativas?
+
+
+# Algunas preguntas en ingeniería eléctrica {.small-text}
+- **Análisis de confiabilidad:** ¿Cuál es la vida útil esperada de un componente eléctrico en diferentes condiciones operativas?
+- **Optimización de redes eléctricas:** ¿Cuál es la configuración óptima de una red eléctrica para minimizar pérdidas de energía?
+- **Control de calidad:** ¿Cómo podemos monitorear y mejorar la calidad de la producción de componentes electrónicos?
+- **Análisis de fallas:** ¿Qué factores están más correlacionados con fallas en sistemas eléctricos?
+- **Predicción de demanda:** ¿Cómo podemos predecir la demanda de electricidad en diferentes periodos del año?
+
+
+# Algunas preguntas en ingeniería industrial {.small-text}
+- **Optimización de la producción:** ¿Cuál es la secuencia óptima de producción para minimizar los tiempos de espera y maximizar la eficiencia?
+- **Análisis de capacidad:** ¿Cuál es la capacidad máxima de una línea de producción sin comprometer la calidad?
+- **Control de calidad:** ¿Cómo podemos reducir la variabilidad en la producción para mejorar la calidad del producto?
+- **Estudio de tiempos y movimientos:** ¿Cuáles son los factores que más afectan el tiempo de ciclo en una línea de ensamblaje?
+- **Análisis de datos de ventas:** ¿Qué factores están más correlacionados con el aumento de las ventas de un producto específico?
+
+
+# Algunas preguntas en ingeniería civil {.small-text}
+- **Análisis de riesgos:** ¿Cuál es la probabilidad de falla de una estructura bajo diferentes cargas y condiciones ambientales?
+- **Control de calidad en materiales:** ¿Cómo podemos monitorear y mejorar la calidad del concreto utilizado en una construcción?
+- **Estudios geotécnicos:** ¿Cuál es la distribución de las propiedades del suelo en una zona específica?
+- **Optimización de recursos:** ¿Cuál es la cantidad óptima de materiales necesarios para una construcción sin exceder el presupuesto?
+- **Simulación de tráfico:** ¿Cómo podemos modelar y predecir el flujo de tráfico en una nueva carretera para minimizar los congestionamientos?
+
+
+# Algunas preguntas en ingeniería de sistemas {.small-text}
+- **Análisis de datos de usuarios:** ¿Cuáles son los patrones de uso más comunes de una aplicación y cómo podemos mejorar la experiencia del usuario?
+- **Predicción de fallos en sistemas:** ¿Qué factores están más correlacionados con fallas en un sistema informático?
+- **Análisis de rendimiento:** ¿Cómo podemos mejorar el rendimiento de una base de datos en función de los patrones de acceso?
+- **Seguridad informática:** ¿Cuál es la probabilidad de un ataque de seguridad basado en los patrones de tráfico de red?
+- **Optimización de algoritmos:** ¿Cómo podemos mejorar la eficiencia de un algoritmo de búsqueda?
+
+
+# Algunas preguntas en ingeniería agroindustrial {.small-text}
+- **Optimización de cultivos:** ¿Cuál es la combinación óptima de fertilizantes y riego para maximizar el rendimiento de un cultivo?
+- **Control de calidad en alimentos:** ¿Cómo podemos reducir la variabilidad en la producción de alimentos para mejorar la calidad y seguridad?
+- **Estudios de impacto ambiental:** ¿Cómo podemos medir y reducir el impacto ambiental de prácticas agrícolas específicas?
+- **Predicción de plagas:** ¿Cómo podemos predecir la aparición de plagas en un cultivo en función de las condiciones climáticas y otros factores?
+
+
+# Elementos clave
+::: columns
+::: {.column width="50%"}
+![](0_Figures/1_PoblacionMuestra.png)
+:::
+
+::: {.column width="50%"}
+![](0_Figures/1_Incertidumbre.jpg)
+:::
+:::
+
+# Ejemplo de aplicación {.small-text}
+::: columns
+::: {.column width="30%"}
+![](0_Figures/1_Google_Ads_logo.png){height="250"}
+![](0_Figures/1_Meta.png){height="250"}
+:::
+
+::: {.column width="70%"}
+[![](0_Figures/1_CustomerClustering.png)](0_Resources/how-target-figured-out-a-teen-girl-was-pregnant-before-her-father-did.html)
+:::
+:::
+
+
+# Áreas complementarias
+![](0_Figures/1_DataScience.png)
+
 # Introducción
 
 ### ¿Para qué sirve este curso?
 
--   Diseñar, programar y controlar la producción de bienes.
--   Determinar y analizar variables de operación que aporten a la
-    formulación de planes de mejoramiento para el uso de los recursos
-    empresariales.
--   Proponer sistemas de información y reporte que faciliten y mejoren
-    el análisis de la operación.
+- Describir y analizar conjuntos de datos.
+- Análisis de fenómenos aleatorios en ingeniería.
+- Definir metodologías de muestreo.
+- Aplicar modelos de regresión.
 
-## Contenido
-
-![](0_Figures/0_AsignaturasProduccion.png)
 
 ## Contenido
 
@@ -101,7 +175,9 @@ library(kableExtra)
 ::: {.column width="25%"}
 **Módulo I (30%)**
 
-\- Parcial (25%)
+\- Informe análisis exploratorio (15%)
+
+\- Parcial (10%)
 
 \- Actividades en clase (5%)
 :::
@@ -122,28 +198,30 @@ library(kableExtra)
 \- Actividades en clase (5%)
 :::
 
-::: {.column .small-text width="25%"}
-**Actividades Complementarias e integradoras (30%)**
+::: {.column width="25%"}
+**Módulo IV (30%)**
 
-\- Lectura (5%)
+\- Artículo científico (10%)
 
-\- Dashboard OEE (15%)
+\- Parcial (15%)
 
-\- Taller de optimización en AMPL (10%)
+\- Actividades en clase (5%)
 :::
 :::
 
 ## Recursos guía
 
 ::: nonincremental
-- Johnson (2018). Probability and Statistics for Engineers
+- Chang (2024). R Graphics Cookbook (2nd ed.)
+- Crawley (2015). Statistics: and introduction using R
 - Koralov y Sinai (2012). Theory of Probability and Random Processes (2nd ed.)
-- Walpole, Myers y Myers (). Probabilidad y estadística para ingenierías y ciencias (8va ed.)
 - Tattar, Ramaiah y Manjunath (2016). A course in statistics with R
-- Chang (2024). R Graphics Cookbook
+- Wackerly et al. (2008). Estadística matemática con aplicaciones (7ma ed.)
+- Wickman et al. (2023). R for Data Science (2nd ed.)
+- Wickman et al. (2023). ggplot2 (2nd ed.)
 :::
 
-## Software
+## Software del curso
 
 ::: columns
 ::: {.column width="33%"}
@@ -155,36 +233,35 @@ library(kableExtra)
 :::
 
 ::: {.column width="34%"}
-![](0_Figures/0_Logo_Qlik.png) **Qlik Sense**
+![](0_Figures/0_Logo_Qlik.png) 
+**Qlik Sense**
 :::
 :::
-
-## Presentación
-
-::: notes
-Mencionar los acuerdos de clase: - No responder a no ser que le sea
-consultado directa o abiertamente.
-:::
-
 
 
 ### Software estadístico {.stretch}
 
 ::: columns
-::: {.column width="33%"}
-![](0_Figures/0_Logo_Python.png){height="200"}
+::: {.column width="30%"}
+![](0_Figures/0_Logo_Python.png)
 ![](0_Figures/0_Logo_R.png){height="150"}
+![](0_Figures/0_Logo_SPSS.png){height="180"}
 :::
 
-::: {.column width="33%"}
-![](0_Figures/0_Logo_Matlab.png){height="200"}
-
-
+::: {.column width="30%"}
+![](0_Figures/0_Logo_Stata.png)
+![](0_Figures/0_Logo_SAS.png)
 :::
 
-::: {.column width="34%"}
+::: {.column width="30%"}
+![](0_Figures/0_Logo_PowerBI.png)
+![](0_Figures/0_Logo_Qlik.png)
+![](0_Figures/0_Logo_Tableau.png)
+:::
 
-
+::: {.column width="10%"}
+![](0_Figures/0_Logo_Matlab.png){width="100%}
+**Matlab**
 :::
 :::
 
@@ -192,12 +269,20 @@ consultado directa o abiertamente.
 
 ::: columns
 ::: {.column width=50%}
-![](0_Figures/0_OptimizationSoftware1.png)
+![](0_Figures/0_SoftwareEstadistica.png)
 :::
 
 ::: {.column width=50%}
 ![](0_Figures/0_OptimizationSoftware2.png)
 :::
+:::
+
+
+## Presentación
+
+::: notes
+Mencionar los acuerdos de clase: - No responder a no ser que le sea
+consultado directa o abiertamente.
 :::
 
 
