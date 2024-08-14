@@ -74,58 +74,96 @@ library(kableExtra)
 ```
 
 # Estadística {.small-text}
+
 ![](0_Figures/1_Estadistica.jpg)
 
 # Analítica {.small-text}
+
 ![](0_Figures/1_AnaliticaTipos.png)
 
-# Algunas preguntas en ingeniería mecánica {.small-text}
-- **Análisis de vibraciones:** ¿Qué frecuencias de vibración son más críticas para la integridad de una estructura mecánica?
-- **Diseño de experimentos:** ¿Cuál es la combinación óptima de materiales para maximizar la resistencia de un componente?
-- **Gestión de activos:** ¿Cómo podemos predecir el desgaste de una pieza mecánica en función del tiempo y uso?
-- **Simulación y modelado:** ¿Cómo podemos modelar el comportamiento térmico de un motor bajo diferentes condiciones operativas?
+# Algunas aplicaciones en ingeniería mecánica {.small-text}
 
+-   **Análisis de vibraciones:** ¿Qué frecuencias de vibración son más
+    críticas para la integridad de una estructura mecánica?
+-   **Diseño de experimentos:** ¿Cuál es la combinación óptima de
+    materiales para maximizar la resistencia de un componente?
+-   **Gestión de activos:** ¿Cómo podemos predecir el desgaste de una
+    pieza mecánica en función del tiempo y uso?
+-   **Simulación y modelado:** ¿Cómo podemos modelar el comportamiento
+    térmico de un motor bajo diferentes condiciones operativas?
 
-# Algunas preguntas en ingeniería eléctrica {.small-text}
-- **Análisis de confiabilidad:** ¿Cuál es la vida útil esperada de un componente eléctrico en diferentes condiciones operativas?
-- **Optimización de redes eléctricas:** ¿Cuál es la configuración óptima de una red eléctrica para minimizar pérdidas de energía?
-- **Control de calidad:** ¿Cómo podemos monitorear y mejorar la calidad de la producción de componentes electrónicos?
-- **Análisis de fallas:** ¿Qué factores están más correlacionados con fallas en sistemas eléctricos?
-- **Predicción de demanda:** ¿Cómo podemos predecir la demanda de electricidad en diferentes periodos del año?
+# Algunas aplicaciones en ingeniería eléctrica {.small-text}
 
+-   **Análisis de confiabilidad:** ¿Cuál es la vida útil esperada de un
+    componente eléctrico en diferentes condiciones operativas?
+-   **Optimización de redes eléctricas:** ¿Cuál es la configuración
+    óptima de una red eléctrica para minimizar pérdidas de energía?
+-   **Control de calidad:** ¿Cómo podemos monitorear y mejorar la
+    calidad de la producción de componentes electrónicos?
+-   **Análisis de fallas:** ¿Qué factores están más correlacionados con
+    fallas en sistemas eléctricos?
+-   **Predicción de demanda:** ¿Cómo podemos predecir la demanda de
+    electricidad en diferentes periodos del año?
 
-# Algunas preguntas en ingeniería industrial {.small-text}
-- **Optimización de la producción:** ¿Cuál es la secuencia óptima de producción para minimizar los tiempos de espera y maximizar la eficiencia?
-- **Análisis de capacidad:** ¿Cuál es la capacidad máxima de una línea de producción sin comprometer la calidad?
-- **Control de calidad:** ¿Cómo podemos reducir la variabilidad en la producción para mejorar la calidad del producto?
-- **Estudio de tiempos y movimientos:** ¿Cuáles son los factores que más afectan el tiempo de ciclo en una línea de ensamblaje?
-- **Análisis de datos de ventas:** ¿Qué factores están más correlacionados con el aumento de las ventas de un producto específico?
+# Algunas aplicaciones en ingeniería industrial {.small-text}
 
+-   **Optimización de la producción:** ¿Cuál es la secuencia óptima de
+    producción para minimizar los tiempos de espera y maximizar la
+    eficiencia?
+-   **Análisis de capacidad:** ¿Cuál es la capacidad máxima de una línea
+    de producción sin comprometer la calidad?
+-   **Control de calidad:** ¿Cómo podemos reducir la variabilidad en la
+    producción para mejorar la calidad del producto?
+-   **Estudio de tiempos y movimientos:** ¿Cuáles son los factores que
+    más afectan el tiempo de ciclo en una línea de ensamblaje?
+-   **Análisis de datos de ventas:** ¿Qué factores están más
+    correlacionados con el aumento de las ventas de un producto
+    específico?
 
-# Algunas preguntas en ingeniería civil {.small-text}
-- **Análisis de riesgos:** ¿Cuál es la probabilidad de falla de una estructura bajo diferentes cargas y condiciones ambientales?
-- **Control de calidad en materiales:** ¿Cómo podemos monitorear y mejorar la calidad del concreto utilizado en una construcción?
-- **Estudios geotécnicos:** ¿Cuál es la distribución de las propiedades del suelo en una zona específica?
-- **Optimización de recursos:** ¿Cuál es la cantidad óptima de materiales necesarios para una construcción sin exceder el presupuesto?
-- **Simulación de tráfico:** ¿Cómo podemos modelar y predecir el flujo de tráfico en una nueva carretera para minimizar los congestionamientos?
+# Algunas aplicaciones en ingeniería civil {.small-text}
 
+-   **Análisis de riesgos:** ¿Cuál es la probabilidad de falla de una
+    estructura bajo diferentes cargas y condiciones ambientales?
+-   **Control de calidad en materiales:** ¿Cómo podemos monitorear y
+    mejorar la calidad del concreto utilizado en una construcción?
+-   **Estudios geotécnicos:** ¿Cuál es la distribución de las
+    propiedades del suelo en una zona específica?
+-   **Optimización de recursos:** ¿Cuál es la cantidad óptima de
+    materiales necesarios para una construcción sin exceder el
+    presupuesto?
+-   **Simulación de tráfico:** ¿Cómo podemos modelar y predecir el flujo
+    de tráfico en una nueva carretera para minimizar los
+    congestionamientos?
 
-# Algunas preguntas en ingeniería de sistemas {.small-text}
-- **Análisis de datos de usuarios:** ¿Cuáles son los patrones de uso más comunes de una aplicación y cómo podemos mejorar la experiencia del usuario?
-- **Predicción de fallos en sistemas:** ¿Qué factores están más correlacionados con fallas en un sistema informático?
-- **Análisis de rendimiento:** ¿Cómo podemos mejorar el rendimiento de una base de datos en función de los patrones de acceso?
-- **Seguridad informática:** ¿Cuál es la probabilidad de un ataque de seguridad basado en los patrones de tráfico de red?
-- **Optimización de algoritmos:** ¿Cómo podemos mejorar la eficiencia de un algoritmo de búsqueda?
+# Algunas aplicaciones en ingeniería de sistemas {.small-text}
 
+-   **Análisis de datos de usuarios:** ¿Cuáles son los patrones de uso
+    más comunes de una aplicación y cómo podemos mejorar la experiencia
+    del usuario?
+-   **Predicción de fallos en sistemas:** ¿Qué factores están más
+    correlacionados con fallas en un sistema informático?
+-   **Análisis de rendimiento:** ¿Cómo podemos mejorar el rendimiento de
+    una base de datos en función de los patrones de acceso?
+-   **Seguridad informática:** ¿Cuál es la probabilidad de un ataque de
+    seguridad basado en los patrones de tráfico de red?
+-   **Optimización de algoritmos:** ¿Cómo podemos mejorar la eficiencia
+    de un algoritmo de búsqueda?
 
-# Algunas preguntas en ingeniería agroindustrial {.small-text}
-- **Optimización de cultivos:** ¿Cuál es la combinación óptima de fertilizantes y riego para maximizar el rendimiento de un cultivo?
-- **Control de calidad en alimentos:** ¿Cómo podemos reducir la variabilidad en la producción de alimentos para mejorar la calidad y seguridad?
-- **Estudios de impacto ambiental:** ¿Cómo podemos medir y reducir el impacto ambiental de prácticas agrícolas específicas?
-- **Predicción de plagas:** ¿Cómo podemos predecir la aparición de plagas en un cultivo en función de las condiciones climáticas y otros factores?
+# Algunas aplicaciones en ingeniería agroindustrial {.small-text}
 
+-   **Optimización de cultivos:** ¿Cuál es la combinación óptima de
+    fertilizantes y riego para maximizar el rendimiento de un cultivo?
+-   **Control de calidad en alimentos:** ¿Cómo podemos reducir la
+    variabilidad en la producción de alimentos para mejorar la calidad y
+    seguridad?
+-   **Estudios de impacto ambiental:** ¿Cómo podemos medir y reducir el
+    impacto ambiental de prácticas agrícolas específicas?
+-   **Predicción de plagas:** ¿Cómo podemos predecir la aparición de
+    plagas en un cultivo en función de las condiciones climáticas y
+    otros factores?
 
 # Elementos clave
+
 ::: columns
 ::: {.column width="50%"}
 ![](0_Figures/1_PoblacionMuestra.png)
@@ -137,6 +175,7 @@ library(kableExtra)
 :::
 
 # Ejemplo de aplicación {.small-text}
+
 ::: columns
 ::: {.column width="30%"}
 ![](0_Figures/1_Google_Ads_logo.png){height="250"}
@@ -148,25 +187,25 @@ library(kableExtra)
 :::
 :::
 
-
 # Áreas complementarias
+
 ![](0_Figures/1_DataScience.png)
 
 # Introducción
 
 ### ¿Para qué sirve este curso?
 
-- Describir y analizar conjuntos de datos.
-- Análisis de fenómenos aleatorios en ingeniería.
-- Definir metodologías de muestreo.
-- Aplicar modelos de regresión.
-
+-   Describir y analizar conjuntos de datos.
+-   Análisis de fenómenos aleatorios en ingeniería.
+-   Definir metodologías de muestreo.
+-   Aplicar modelos de regresión.
 
 ## Contenido
 
 ![](0_Figures/0_ContenidoEstadisticaGeneral.png)
 
 ## Contenido
+
 {{< pdf /0_Resources/II593_Estadistica_General.pdf width=100% height=620 >}}
 
 ## Evaluación
@@ -212,13 +251,15 @@ library(kableExtra)
 ## Recursos guía
 
 ::: nonincremental
-- Chang (2024). R Graphics Cookbook (2nd ed.)
-- Crawley (2015). Statistics: and introduction using R
-- Koralov y Sinai (2012). Theory of Probability and Random Processes (2nd ed.)
-- Tattar, Ramaiah y Manjunath (2016). A course in statistics with R
-- Wackerly et al. (2008). Estadística matemática con aplicaciones (7ma ed.)
-- Wickman et al. (2023). R for Data Science (2nd ed.)
-- Wickman et al. (2023). ggplot2 (2nd ed.)
+-   Chang (2024). R Graphics Cookbook (2nd ed.)
+-   Crawley (2015). Statistics: and introduction using R
+-   Koralov y Sinai (2012). Theory of Probability and Random Processes
+    (2nd ed.)
+-   Tattar, Ramaiah y Manjunath (2016). A course in statistics with R
+-   Wackerly et al. (2008). Estadística matemática con aplicaciones (7ma
+    ed.)
+-   Wickman et al. (2023). R for Data Science (2nd ed.)
+-   Wickman et al. (2023). ggplot2 (2nd ed.)
 :::
 
 ## Software del curso
@@ -233,7 +274,6 @@ library(kableExtra)
 :::
 :::
 
-
 ### Software estadístico {.stretch}
 
 ::: columns
@@ -244,19 +284,16 @@ library(kableExtra)
 :::
 
 ::: {.column width="30%"}
-![](0_Figures/0_Logo_Stata.png)
-![](0_Figures/0_Logo_SAS.png)
+![](0_Figures/0_Logo_Stata.png) ![](0_Figures/0_Logo_SAS.png)
 :::
 
 ::: {.column width="30%"}
-![](0_Figures/0_Logo_PowerBI.png)
-![](0_Figures/0_Logo_Qlik.png)
+![](0_Figures/0_Logo_PowerBI.png) ![](0_Figures/0_Logo_Qlik.png)
 ![](0_Figures/0_Logo_Tableau.png)
 :::
 
 ::: {.column width="10%"}
-![](0_Figures/0_Logo_Matlab.png){width="100%}
-**Matlab**
+![](0_Figures/0_Logo_Matlab.png){width="\"100%"} **Matlab**
 :::
 :::
 
@@ -268,8 +305,6 @@ library(kableExtra)
 
 ![](0_Figures/0_StatsSoftware2.png)
 
-
-
 ## Presentación
 
 ::: notes
@@ -277,32 +312,210 @@ Mencionar los acuerdos de clase: - No responder a no ser que le sea
 consultado directa o abiertamente.
 :::
 
-
 # Módulo I: Introducción
+
 ::: nonincremental
-- Medidas de tendencia central
-- Medidas de dispersión
-- Gráficos
-- Probabilidad
+-   Variables
+-   Medidas de tendencia central
+-   Medidas de dispersión
+-   Gráficas
+-   Teoría de conjuntos
+-   Técnicas de conteo
+-   Probabilidad
 :::
 
+## Variables
+
+![](0_Figures/1_TiposVariables.png)
+
+## Medidas de tendencia central
+
+### Media
+$\begin{equation}
+\bar{X} = \frac{\sum_{i=1}^{n} X_{i}}{n}
+\end{equation}$
+
+**Ventaja:** fácil de interpretar y calcular.
+
+**Desventaja:** sensible a valores extremos.
+
+
+### Mediana
+Es el valor que se encuentra en el centro de una secuencia ordenada de datos. Hay la misma cantidad de datos por encima y por debajo de ella.
+
+$\begin{equation}
+\text{Mediana} =
+\begin{cases}
+X_{\frac{n+1}{2}}, & \text{si } n \text{ es impar} \\
+\frac{X_{\frac{n}{2}} + X_{\frac{n}{2} +1}}{2}, & \text{si } n \text{ es par}
+\end{cases}
+\end{equation}$
+
+**Ventaja:** fácil de interpretar y calcular, no es sensible a valores extremos.
+
+
+### Moda
+Es el valor que aparece con mayor frecuencia, se utiliza en fines descriptivos ya que es muy variable para diferentes muestras. Puede haber más de una moda.
+
+Un conjunto de datos puedes ser unimodal, bimodal o multimodal.
+
+### Ejemplo
+Calcular la media, mediana y moda de la edad, altura y dinero en efectivo de los estudiantes del grupo 6 de Estadística General:
+
+```{r}
+library(dplyr)
+library(kableExtra)
+
+link_encuesta <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vRSn6T8sclb-P9UeGkh305w-8fs-rPR1_ritC2FPOLS2Ub13KUr_vF1dvRb0ZYr582s3aXD2gEVziGL/pub?gid=1539739636&single=true&output=csv"
+
+data <- read.csv("0_Resources/data_ejemplo_sin_ajustar_1.csv")
+titulos <- c("Id", "Timestamp", "Edad", "Altura (cm)", "Dinero en efectivo (COP)")
+colnames(data) <- titulos
+
+data %>% 
+  select(-c(Timestamp)) %>% 
+  kbl(align = "c") %>% 
+  kable_material(c("striped", "hover")) %>% 
+  row_spec(1:nrow(data), extra_css = "text-align: center; vertical-align: middle;") %>% 
+  scroll_box(width = "100%", height = "400px")
+```
+
+### Ejemplo
+Calcular la media, mediana y moda de la edad, altura y dinero en efectivo de los estudiantes del grupo 6 de Estadística General:
+
+```{r}
+library(dplyr)
+library(kableExtra)
+
+link_encuesta <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vRSn6T8sclb-P9UeGkh305w-8fs-rPR1_ritC2FPOLS2Ub13KUr_vF1dvRb0ZYr582s3aXD2gEVziGL/pub?gid=1539739636&single=true&output=csv"
+
+data <- read.csv(link_encuesta)
+data <- cbind(c(1:length(data$Edad)), data)
+titulos <- c("Id", "Timestamp", "Edad", "Altura (cm)", "Dinero en efectivo (COP)")
+colnames(data) <- titulos
+
+data %>% 
+  select(-c(Timestamp)) %>% 
+  kbl(align = "c") %>% 
+  kable_material(c("striped", "hover")) %>% 
+  row_spec(1:nrow(data), extra_css = "text-align: center; vertical-align: middle;") %>% 
+  scroll_box(width = "100%", height = "400px")
+```
+
+
+
+### Ejemplo
+::: {.panel-tabset}
+
+### Output
+
+```{r}
+# Formula moda
+moda <- function(x) {
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+
+# Edad
+media_edad <- round(mean(data$Edad), digits=2)
+mediana_edad <- median(data$Edad)
+moda_edad <- moda(data$Edad)
+
+# Altura
+media_altura <- round(mean(data$`Altura (cm)`), digits=2)
+mediana_altura <- median(data$`Altura (cm)`)
+moda_altura <- moda(data$`Altura (cm)`)
+
+# Dinero
+media_dinero <- round(mean(data$`Dinero en efectivo (COP)`), digits=2)
+mediana_dinero <- median(data$`Dinero en efectivo (COP)`)
+moda_dinero <- moda(data$`Dinero en efectivo (COP)`)
+
+print(paste0("La variable Edad (años) tiene una media de ", media_edad, ", su mediana es ", mediana_edad, " y su moda es ", moda_edad))
+
+print(paste0("La variable Altura (cm) tiene una media de ", media_altura, ", su mediana es ", mediana_altura, " y su moda es ", moda_altura))
+
+print(paste0("La variable Dinero (COP) tiene una media de ", media_dinero, ", su mediana es ", mediana_dinero, " y su moda es ", moda_dinero))
+
+```
+
+### R code
+
+```{.r}
+# Formula moda
+moda <- function(x) {
+  ux <- unique(x)
+  ux[which.max(tabulate(match(x, ux)))]
+}
+
+
+link_encuesta <- "https://docs.google.com/spreadsheets/d/e/2PACX-1vRSn6T8sclb-P9UeGkh305w-8fs-rPR1_ritC2FPOLS2Ub13KUr_vF1dvRb0ZYr582s3aXD2gEVziGL/pub?gid=1539739636&single=true&output=csv"
+
+data <- read.csv(link_encuesta)
+
+# Edad
+media_edad <- round(mean(data$Edad), digits=2)
+mediana_edad <- median(data$Edad)
+moda_edad <- moda(data$Edad)
+
+# Altura
+media_altura <- round(mean(data$Altura..cm.), digits=2)
+mediana_altura <- median(data$Altura..cm.)
+moda_altura <- moda(data$Altura..cm.)
+
+# Dinero
+media_dinero <- round(mean(data$Dinero.en.efectivo), digits=2)
+mediana_dinero <- median(data$Dinero.en.efectivo)
+moda_dinero <- moda(data$Dinero.en.efectivo)
+
+print(paste0("La variable Edad (años) tiene una media de ", media_edad, ", su mediana es ", mediana_edad, " y su moda es ", moda_edad))
+
+print(paste0("La variable Altura (cm) tiene una media de ", media_altura, ", su mediana es ", mediana_altura, " y su moda es ", moda_altura))
+
+print(paste0("La variable Dinero (COP) tiene una media de ", media_dinero, ", su mediana es ", mediana_dinero, " y su moda es ", moda_dinero))
+```
+
+:::
+
+
+
+## Medidas de dispersión
+
+### Rango
+
+
+### Varianza
+
+
+### Desviación estándar
+
+
+### Curtosis
+
+
+## Gráficas
+
+
 # Módulo II: Variables aleatorias
+
 ::: nonincremental
-- Funciones de distribución y funciones de probabilidad
-- Distribuciones discretas
-- Distribuciones continuas
-- Esperanza matemática
+-   Funciones de distribución y funciones de probabilidad
+-   Distribuciones discretas
+-   Distribuciones continuas
+-   Esperanza matemática
 :::
 
 # Módulo III: Inferencia
+
 ::: nonincremental
-- Estimación de una y dos muestras
-- Pruebas de hipótesis de una y dos muestras
+-   Estimación de una y dos muestras
+-   Pruebas de hipótesis de una y dos muestras
 :::
 
 # Módulo IV: Regresión y muestreo
-::: nonincremental
-- Modelos de regresión
-- Muestreo
-:::
 
+::: nonincremental
+-   Modelos de regresión
+-   Muestreo
+:::
