@@ -484,17 +484,148 @@ print(paste0("La variable Dinero (COP) tiene una media de ", media_dinero, ", su
 
 ### Rango
 
+$\begin{equation}
+Rango = Valor_{máximo} - Valor_{mínimo}
+\end{equation}$
+
+**Propiedades:**
+
+* Fácil de calcular.
+* Sensible a valores extremos.
+* No considera la distribución de los datos.
+* Posible dependencia del tamaño de la muestra.
+* Puede ser problemático para comparar diferentes conjuntos de datos o muestras.
+* Brinda una vista rápida y sencilla de la dispersión y sobre la presencia de datos atípicos significativos.
+
 
 ### Varianza
+::: columns
+::: {.column width="50%"}
+$\begin{equation}
+\sigma^2 = \frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2
+\end{equation}$
+:::
+
+::: {.column width="50%"}
+$\begin{equation}
+s^2 = \frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2
+\end{equation}$
+:::
+:::
+
+#### Propiedades de la varianza
+::: small-text
+* Siempre es positiva.
+* Sensible a valores extremos, aunque de manera más equilibrada que el rango.
+* Unidades cuadradas.
+* Aditividad: la varianza de la suma de variables aleatorias independientes es igual a la suma de sus varianzas individuales.
+* Permite comparar diferentes conjuntos de datos.
+* Dependencia del escalado
+
+$\begin{equation}
+Y = aX \\
+Var(Y) = a^2 Var(X)
+\end{equation}$
+:::
+
+#### ¿Por qué en la expresión de la varianza se utiliza el cuadrado de las diferencias en vez de su valor absoluto?
+
 
 
 ### Desviación estándar
+::: columns
+::: {.column width="50%"}
+$\begin{equation}
+\sigma = \sqrt{\frac{1}{N} \sum_{i=1}^{N} (x_i - \mu)^2}
+\end{equation}$
+:::
 
+::: {.column width="50%"}
+$\begin{equation}
+s = \sqrt{\frac{1}{n-1} \sum_{i=1}^{n} (x_i - \bar{x})^2}
+\end{equation}$
+:::
+:::
+
+#### Propiedades de la desviación estándar
+* Mismas unidades que los datos.
+* Interpretación directa.
+* Sensible a valores extremos.
+* Propiedad de escalabilidad: si $Y = aX$, $Std(Y) = |a|*Std(X)$.
+* Aditividad en variables independientes: $Std(X+Y) = \sqrt{Var(X) + Var(Y)}$.
+* Sensible a outliers.
+* Asume distribución simétrica.
+
+### Coeficiente de variación
+
+$\text{Coeficiente de Variación} = \frac{\text{Desviación Estándar}}{\text{Media}} \times 100\%$
+
+## Medidas de forma
+
+### Coeficiente de asimetría (skewness)
+
+Indica hacia dónde están sesgados los datos.
+
+$\text{As} = \sum_{i=1}^{n} \frac{(X_{i}-\bar{X})^2}{ns^3}$
+
+Valores:
+
+$[-0.5 , 0.5] \text{ ...Simétrico}$
+
+$[-1, -0.5) \text{ ó } (0.5, 1] \text{ ...Sesgo moderado}$
+
+$As < -1 \text{ ó } As>1 \text{ ...Muy sesgado}$
+
+### Coeficiente de asimetría (skewness)
+![](0_Figures/1_Asimetria1.png)
+
+### Coeficiente de asimetría (skewness)
+![](0_Figures/1_Asimetria2.png)
 
 ### Curtosis
 
+Indica cuán "chata" o alta es la distribución
+
+$\text{kur} = \sum_{i=1}^{n} \frac{(X_i - \bar{X})^4}{ns^4}$
+
+![](0_Figures/1_Curtosis.png)
+
+## Medidas de posición
+
+### Percentiles
+El percentil es un valor tal que el **P** por ciente de las observaciones son menores a tal valor.
+
+**Ejemplo:** suponga que la nota del parcial es 4.1 y esa nota corresponde al percentil 90. Esto indica que el 90% de los estudiantes obtuvieron una nota entre 0.0 y 4.1 o que sólo el 10% sacó más de 4.1.
+
+Para calcular los percentiles primero se deben ordenar los datos.
+
+### Percentiles
+$$\text{Dec} = \frac{i*n}{100} \text{ ; i es el percentil a calcular} $$
+
+$$P_{i} = \begin{cases} 
+X_{(\lfloor Dec \rfloor + 1)} & \text{si } Dec \neq 0 \\
+\frac{X_{Dec} + X_{Dec+1)}}{2} & \text{si } Dec = 0 
+\end{cases}$$
+
+Datos: 11 , 13 , 16 , 20 , 21
+
+$P_{10} = ?$
+
+$P_{20} = ?$
+
+$P_{95} = ?$
+
+$P_{50} = ?$
+
+$P_{73} = ?$
+
+### Cuartiles
+
+### Deciles
 
 ## Gráficas
+
+
 
 
 # Módulo II: Variables aleatorias
