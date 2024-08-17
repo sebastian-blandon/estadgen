@@ -590,16 +590,29 @@ $\text{kur} = \sum_{i=1}^{n} \frac{(X_i - \bar{X})^4}{ns^4}$
 
 ![](0_Figures/1_Curtosis.png)
 
-## Medidas de posición
+## Medidas de posición (cuantiles)
 
-### Percentiles
+Los cuantiles sirven para estudiar o analizar lo que sucede con algún porcentaje de datos en particular, cuando se han ordenado previamente los datos. Los cuantiles se dividen en cuartiles, deciles y percentiles.
+
+### p-tiles
+
+::: small-text
+- *Cuartil:* genera cuatro intervalos, cada uno con el 25\% de los casos.
+- *Quintil:* genera cinco intervalos, cada uno con el 20\% de los casos.
+- *Decil:* genera 10 intervalos, cada uno con el 10\% de los casos.
+- *Veintil:* genera 20 intervalos, cada uno con el 5% de los casos.
+- *Percentil:* genera 100 intervalos, cada uno con el 1\% de los casos.
+- *N personalizado:* es posible determinar el número de intervalos, según sea la necesidad. Por ejemplo, un valor de 3 produciría 3 categorías agrupadas (2 puntos de corte), cada una de las cuales contendría el 33.3\% de los casos.
+:::
+
+#### Percentiles
 El percentil es un valor tal que el **P** por ciente de las observaciones son menores a tal valor.
 
 **Ejemplo:** suponga que la nota del parcial es 4.1 y esa nota corresponde al percentil 90. Esto indica que el 90% de los estudiantes obtuvieron una nota entre 0.0 y 4.1 o que sólo el 10% sacó más de 4.1.
 
 Para calcular los percentiles primero se deben ordenar los datos.
 
-### Percentiles
+#### Percentiles
 $$\text{Dec} = \frac{i*n}{100} \text{ ; i es el percentil a calcular} $$
 
 $$P_{i} = \begin{cases} 
@@ -609,23 +622,109 @@ X_{(\lfloor Dec \rfloor + 1)} & \text{si } Dec \neq 0 \\
 
 Datos: 11 , 13 , 16 , 20 , 21
 
-$P_{10} = ?$
-
-$P_{20} = ?$
-
-$P_{95} = ?$
-
-$P_{50} = ?$
-
-$P_{73} = ?$
-
-### Cuartiles
-
-### Deciles
+$P_{10} = ?$ \hspace{3cm} $P_{95} = ?$ \hspace{3cm} $P_{73} = ?$  
+$P_{20} = ?$ \hspace{3cm} $P_{50} = ?$
 
 ## Gráficas
 
+### Distribution
+![](0_Figures/1_FigDistribution.png)
 
+#### Histogram
+
+
+#### Density
+
+
+#### Boxplot
+
+
+#### Ridgeline
+
+
+#### Beeswarm
+
+
+### Ranking
+![](0_Figures/1_FigRanking.png)
+
+#### Table
+
+
+#### Barplot
+
+
+#### Lollipop
+
+
+#### Wordcloud
+
+
+#### Parallel
+
+
+#### Circular Barplot
+
+
+### Part of a whole
+![](0_Figures/1_FigPartofWhole.png)
+
+#### Pie chart
+
+
+#### Doughnut
+
+
+#### Grouped and Stacked barplot
+
+
+#### Dendrogram
+
+
+#### Treemap
+
+
+### Evolution
+
+
+### Correlation
+![](0_Figures/1_FigCorrelation.png)
+
+#### Scatter
+
+
+#### Connected scatter
+
+
+#### Heatmap
+
+
+#### Bubble
+
+
+### Evolution
+![](0_Figures/1_FigEvolution.png)
+
+#### Line plot
+
+
+#### Area
+
+
+#### Stacked area
+
+
+### Map
+![](0_Figures/1_FigMap.png)
+
+### Flow
+![](0_Figures/1_FigFlow.png)
+
+
+### General knowledge
+![](0_Figures/1_FigGeneralKnowledge.png)
+
+## Recursos interesantes de dataviz
 
 
 # Módulo II: Variables aleatorias
