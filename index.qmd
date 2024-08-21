@@ -206,7 +206,7 @@ library(kableExtra)
 
 ## Contenido
 
-{{< pdf /0_Resources/II593_Estadistica_General.pdf width=100% height=620 >}}
+{{< pdf /estadisticageneral/0_Resources/II593_Estadistica_General.pdf width=100% height=620 >}}
 
 ## Evaluación
 
@@ -670,8 +670,10 @@ df %>%
 ```
 
 ## Tablas de frecuencias
+
 ::: small-text
-**Notas**: {1.2, 1, 0.6, 0.5, 1.3, 2, 2, 1.8, 1.9, 1.4, 2.5, 2.4, 2.3, 2.8, 3, 3.1, 3, 3.5, 2.9, 3.4, 3.6, 4.5, 3.7, 3.8, 3.9}
+**Notas**: {1.2, 1, 0.6, 0.5, 1.3, 2, 2, 1.8, 1.9, 1.4, 2.5, 2.4, 2.3,
+2.8, 3, 3.1, 3, 3.5, 2.9, 3.4, 3.6, 4.5, 3.7, 3.8, 3.9}
 
 ```{r}
 titulos <- c("Intervalo", "Mc", "fi", "Fi", "hi", "Hi")
@@ -709,18 +711,17 @@ $Hi = \text{Frecuencia relativa acumulada}$
 :::
 
 ## Cálculos sobre datos agrupados
+
 ::: small-text
 ::: columns
 ::: {.column width="50%"}
-**Media aritmética**
-$$\begin{equation}
+**Media aritmética** $$\begin{equation}
 \bar{X} = \sum_{i=1}^m \frac{f_i * M_c}{n}
 \end{equation}$$
 
 $\text{m = número de clases}$
 
-**Mediana**
-$$\begin{equation}
+**Mediana** $$\begin{equation}
 \text{Me} = Linf_{i} * \frac{\frac{n}{2} - F_{i-1}}{f_{i}}*a
 \end{equation}$$
 
@@ -730,8 +731,7 @@ $Linf_{i} = \text{Límite inferior del intervalo i}$
 :::
 
 ::: {.column width="50%"}
-**Varianza**
-$$\begin{equation}
+**Varianza** $$\begin{equation}
 V(X) = \sum_{i=1}^m \frac{(Mc_{i} - \bar{X})^2*f_{i}}{n-1}
 \end{equation}$$
 :::
@@ -739,14 +739,15 @@ V(X) = \sum_{i=1}^m \frac{(Mc_{i} - \bar{X})^2*f_{i}}{n-1}
 :::
 
 ## Gráficas básicas
+
 ::: nonincremental
-- Diagrama de barras (bar plot)
-- Diagrama de dispersión (scatter plot)
-- Diagrama de líneas (line chart)
-- Histograma (Histogram)
-- Diagrama de ojiva (Ogive graph)
-- Diagrama circular (pie chart)
-- Diagrama de cajas / Diagrama de caja y bigotes (boxplot)
+-   Diagrama de barras (bar plot)
+-   Diagrama de dispersión (scatter plot)
+-   Diagrama de líneas (line chart)
+-   Histograma (Histogram)
+-   Diagrama de ojiva (Ogive graph)
+-   Diagrama circular (pie chart)
+-   Diagrama de cajas / Diagrama de caja y bigotes (boxplot)
 :::
 
 ## Lenguajes de programación
@@ -755,36 +756,47 @@ V(X) = \sum_{i=1}^m \frac{(Mc_{i} - \bar{X})^2*f_{i}}{n-1}
 Un lenguaje de programación es un conjunto de instrucciones y reglas que
 permiten a los humanos comunicarse con máquinas.
 :::
+
 ![](0_Figures/1_MachineMan.jpg)
 
 ## Lenguajes de programación
-"Put simply, programming is giving a set of instructions to a computer to execute. If you’ve ever cooked using a recipe before, you can think of yourself as the computer and the recipe’s author as a programmer. The recipe author provides you with a set of instructions which you read and then follow. The more complex the instructions, the more complex the result!"
+
+"Put simply, programming is giving a set of instructions to a computer
+to execute. If you’ve ever cooked using a recipe before, you can think
+of yourself as the computer and the recipe’s author as a programmer. The
+recipe author provides you with a set of instructions which you read and
+then follow. The more complex the instructions, the more complex the
+result!"
 
 *Fuente: codecademy.com.*
 
 ## Lenguajes de programación
-"programming languages are the tools we use to write instructions for computers to follow. Computers “think” in binary — strings of 1s and 0s. Programming languages allow us to translate the 1s and 0s into something that humans can understand and write. A programming language is made up of a series of symbols that serves as a bridge that allow humans to translate our thoughts into instructions computers can understand."
+
+"programming languages are the tools we use to write instructions for
+computers to follow. Computers “think” in binary — strings of 1s and 0s.
+Programming languages allow us to translate the 1s and 0s into something
+that humans can understand and write. A programming language is made up
+of a series of symbols that serves as a bridge that allow humans to
+translate our thoughts into instructions computers can understand."
 
 *Fuente: codecademy.com.*
 
 ### Historia
+
 ::: columns
 ::: {.column width="33%"}
-![](0_Figures/1_ProgramacionHistoria1.jpg)
-**Charles Babbage**
+![](0_Figures/1_ProgramacionHistoria1.jpg) **Charles Babbage**
 (Diciembre 26, 1791 - Octubre 18, 1871)
 :::
 
 ::: {.column width="33%"}
-![](0_Figures/1_ProgramacionHistoria2.jpg)
-**Ada Lovelance**
-(Diciembre 10, 1815 - Noviembre 27, 1852)
+![](0_Figures/1_ProgramacionHistoria2.jpg) **Ada Lovelance** (Diciembre
+10, 1815 - Noviembre 27, 1852)
 :::
 
 ::: {.column width="34%"}
-![](0_Figures/1_ProgramacionHistoria3.png)
-**Alan Turing**
-(Junio 23, 1912 - Junio 7, 1954)
+![](0_Figures/1_ProgramacionHistoria3.png) **Alan Turing** (Junio 23,
+1912 - Junio 7, 1954)
 :::
 :::
 
@@ -794,66 +806,199 @@ permiten a los humanos comunicarse con máquinas.
     código.
 -   **Semántica** : significado de las instrucciones escritas en el
     lenguaje.
--   **Pragmática** : manera en que se usa el lenguaje de programación para resolver un problema.
+-   **Pragmática** : manera en que se usa el lenguaje de programación
+    para resolver un problema.
+
+### Ejemplo de sintaxis
+
+``` r
+# Ejemplo correcto
+x <- 10
+y <- 20
+
+suma <- x+y
+print(suma) # Output: [1] 30
+
+# Ejemplo incorrecto
+x <- 10
+y <- 20
+
+suma <- x+y
+print suma # Output: Error: unexpected symbol in "print suma"
+```
+
+*Adaptado de Valencia Díaz (2024)*
+
+### Ejemplo de sintaxis
+
+``` r
+# Ejemplo correcto de declaración if en R
+edad <- 20
+
+if (edad >= 18) {
+  print("Eres mayor de edad")
+} else {
+  print("No eres mayor de edad")
+} # Output: [1] "Eres mayor de edad"
+
+# Ejemplo incorrecto de declaración if en R
+if edad >= 18 {
+  print("Eres mayor de edad")
+} else {
+  print("No eres mayor de edad")
+} # Output: Error: unexpected symbol in "if edad"
+```
+
+*Adaptado de Valencia Díaz (2024)*
+
+### Ejemplo de semántica
+
+``` r
+# Ejemplo correcto
+edad <- 25
+
+ifelse(edad>=18, "Eres mayor de edad", "No eres mayor de edad") # Output: [1] "Eres mayor de edad"
+
+# Ejemplo incorrecto
+edad <- as.numeric("veinticinco")
+
+ifelse(edad>=18, "Eres mayor de edad", "No eres mayor de edad")
+# Output: Error in if (edad >= 18) { : missing value where TRUE/FALSE needed
+```
+
+*Adaptado de Valencia Díaz (2024)*
+
+### Ejemplo de Pragmática
+
+``` r
+# Ejemplo correcto
+area_circunferencia <- function(radio) {
+  area <- pi*radio^2
+}
+
+area_calculada <- area_circunferencia(5)
+
+paste0("El área de la circunferencia es ", area_calculada)
+# Output: [1] "El área de la circunferencia es 78.5398163397448"
+
+
+# Ejemplo incorrecto
+area_circunferencia <- function(radio) {
+  pi <- 3.1416
+  area <- pi*radio^2
+}
+
+area_calculada <- area_circunferencia(5)
+
+paste0("El área de la circunferencia es ", area_calculada)
+# Output: [1] "El área de la circunferencia es 78.54"
+```
+
+*Adaptado de Valencia Díaz (2024)*
 
 ### Niveles de los lenguajes de programación
 
+![](0_Figures/1_Programacion3.png)
+
+### Primera computadora programable multipropósito
+
+![](0_Figures/1_Programacion1.jpg){width="70%"}
+
+ENIAC
+
+### Primera computadora programable producida a escala
+![](0_Figures/1_Programacion2.png){width="70%"}
+
+IBM 650
+
+### Lenguajes de programación
+
+![](0_Figures/1_Fortran.jpg)
+
 ### Componentes para usar un lenguaje de programación
 
+![](0_Figures/1_Programacion4.png)
+
 ### Redes de ayuda
+
 ![](0_Figures/1_AyudaRedes.png)
 
 ### Consejos al pedir ayuda
+
 ::: nonincremental
-- Dar detalles del problema y lo que quiere lograr.
-- Mencionar las versiones de R y R Studio instaladas.
-- Si se intenta usar un paquete, decir cuál es y la versión instalada de éste.
-- Copiar y pegar todo el código de error.
-- Pedir el favor y agradecer.
+-   Dar detalles del problema y lo que quiere lograr.
+-   Mencionar las versiones de R y R Studio instaladas.
+-   Si se intenta usar un paquete, decir cuál es y la versión instalada
+    de éste.
+-   Copiar y pegar todo el código de error.
+-   Pedir el favor y agradecer.
 :::
 
 ## Lenguaje R
 
+
 ### Componentes de R
+
+::: columns
+::: {.column width="50%"}
+**Indispensable**
+:::
+
+::: {.column width="50%"}
+**Optional (IDE)**
+:::
+:::
 
 ### Librerías en R y Python para ciencia de datos
 
 ### Tidydata
+
 ![](0_Figures/1_Tidydata1.png)
 
 ### Tidydata
+
 ![](0_Figures/1_Tidydata2.png)
 
 ### Tidydata
+
 ![](0_Figures/1_Tidydata3.png)
 
 ### Tidydata
+
 ![](0_Figures/1_Tidydata4.png)
 
 ### Tidydata
+
 ![](0_Figures/1_Tidydata5.png)
 
 ### Tidydata
+
 ![](0_Figures/1_Tidydata6.png)
 
 ### Informes
+
 ![](0_Figures/1_Quarto1.png)
 
 ### Informes
+
 ![](0_Figures/1_Quarto2.png)
 
 ## Tidyverse
+
 ![](0_Figures/1_Tidyverse1.png)
 
 ## Tidyverse
+
 ![](0_Figures/1_Tidyverse2.png)
 
 ## Tidyverse
+
 ![](0_Figures/1_Tidyverse3.png)
 
 ## Gráficas
 
 ### Distribution
+
 ![](0_Figures/1_FigDistribution.png)
 
 #### Histogram
@@ -873,267 +1018,224 @@ link <- ""
 :::
 
 #### Density
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Boxplot
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Ridgeline
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Beeswarm
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 ### Ranking
+
 ![](0_Figures/1_FigRanking.png)
 
 #### Table
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Barplot
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Lollipop
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Wordcloud
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Parallel
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Circular Barplot
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 ### Part of a whole
+
 ![](0_Figures/1_FigPartofWhole.png)
 
 #### Pie chart
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Doughnut
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Grouped and Stacked barplot
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Dendrogram
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Treemap
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 ### Evolution
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 ### Correlation
+
 ![](0_Figures/1_FigCorrelation.png)
 
 #### Scatter
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Connected scatter
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Heatmap
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Bubble
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 ### Evolution
+
 ![](0_Figures/1_FigEvolution.png)
 
 #### Line plot
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Area
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 #### Stacked area
+
 ::: panel-tabset
 ### Gráfica
 
-
-
 ### Código en R
-
 :::
 
 ### Map
+
 ![](0_Figures/1_FigMap.png)
 
 ### Flow
+
 ![](0_Figures/1_FigFlow.png)
 
 ### General knowledge
+
 ![](0_Figures/1_FigGeneralKnowledge.png)
 
 ## Recursos interesantes de dataviz
 
-
 ## Teoría de conjuntos
-
 
 ## Técnicas de conteo
 
-
 ## Probabilidad
-
 
 # Módulo II: Variables aleatorias
 
