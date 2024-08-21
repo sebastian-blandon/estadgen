@@ -940,16 +940,41 @@ IBM 650
 ### Componentes de R
 
 ::: columns
-::: {.column width="50%"}
+::: {.column width="33%"}
 **Indispensable**
+![](0_Figures/0_Logo_R.png){width="80%"}
+Rbase y Rtools
 :::
 
-::: {.column width="50%"}
+::: {.column width="33%"}
 **Optional (IDE)**
+![](0_Figures/1_Logo_IDER5.png){width="80%"}
+![](0_Figures/1_Logo_IDER3.png){width="70%"}
+:::
+
+::: {.column width="34%"}
+![](0_Figures/1_Logo_IDER1.png){width="80%"}
+![](0_Figures/1_Logo_IDER4.png){width="80%"}
+![](0_Figures/1_Logo_IDER2.png){width="80%"}
 :::
 :::
 
 ### Librerías en R y Python para ciencia de datos
+```{r}
+titulos <- c("R", "Python", "Uso")
+X1 <- c("ggplot2", "dplyr", "xgboost", "caret", "lubridate", "forecast")
+X2 <- c("matplotlib / seaborn", "pandas", "xgboost", "scikit-learn", "pandas", "statsmodels")
+X3 <- c("Visualización de datos", "Manipulación de datos", "Machine learning", "Machine learning", "Manipulación de fechas y tiempos", "Modelos estadísticos")
+
+
+df <- as_tibble(cbind(X1,X2,X3))
+colnames(df) <- titulos
+
+df %>% 
+  kbl(align = "c") %>% 
+  kable_material(c("striped", "hover")) %>% 
+  row_spec(1:nrow(df), extra_css = "text-align: center; vertical-align: middle;")
+```
 
 ### Tidydata
 
